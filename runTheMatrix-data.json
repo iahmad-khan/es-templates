@@ -15,6 +15,7 @@
         "AverageGrowthRateRss":{"type":"float"},
         "AverageGrowthRateVsize":{"type":"float"},
         "PeakValueVsize":{"type":"float"},
+        "PeakValueRss":{"type":"float"},
         "AvgEventTime":{"type":"float"},
         "EventThroughput":{"type":"float"},
         "MaxEventTime":{"type":"float"},
@@ -22,6 +23,8 @@
         "TotalJobCPU":{"type":"float"},
         "TotalJobTime":{"type":"float"},
         "TotalLoopCPU":{"type":"float"},
+        "command":{"type":"string", "index": "not_analyzed"},
+        "exitcode":{"type":"long"},
         "@timestamp":{"type":"date"},
         "errors": {
           "properties": {
