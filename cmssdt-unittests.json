@@ -1,10 +1,10 @@
 {
-  "template" : "ibs",
+  "template" : "cmssdt-ibs",
   "settings" : {
       "number_of_shards" : 1
   },
   "mappings": {
-    "unittests": {
+    "cmssdt-unittests": {
       "properties": {
         "status":{"type":"long"},
         "@timestamp":{"type":"date", "format" : "yyyy-MM-dd HH:mm:ss"},

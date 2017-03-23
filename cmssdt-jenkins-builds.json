@@ -1,10 +1,10 @@
 {
-  "template" : "jenkins",
+  "template" : "cmssdt-jenkins",
   "settings" : {
       "number_of_shards" : 1
   },
   "mappings": {
-    "builds-data": {
+    "cmssdt-jenkins-builds-data": {
       "properties": {
         "build_result":{"type":"string", "index": "not_analyzed"},
         "@timestamp":{"type":"date"},
